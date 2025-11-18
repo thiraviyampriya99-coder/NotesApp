@@ -1,0 +1,24 @@
+
+===== NOTES APP =====
+1. Write a Note
+2. Read Notes
+3. Exit
+Enter your choice: 1
+Enter your note: Today I completed Task 4.
+Note saved successfully!
+
+===== NOTES APP =====
+1. Write a Note
+2. Read Notes
+3. Exit
+Enter your choice: 2
+
+------ Saved Notes ------
+• Today I completed Task 4.
+
+===== NOTES APP =====
+1. Write a Note
+2. Read Notes
+3. Exit
+Enter your choice: 3
+Exiting... Goodbye!
