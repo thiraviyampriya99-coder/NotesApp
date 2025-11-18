@@ -1,23 +1,47 @@
-# Notes App – Java File I/O
+# Notes App – Java File I/O (Task 4)
 
-This is a simple text-based Notes Manager application using Java FileWriter and BufferedReader.
+This is a simple text-based Notes Manager built using Java.  
+It allows users to write notes and read saved notes using FileWriter, FileReader, and BufferedReader.
 
-## Features
-- Write notes to a text file
+## 📦 Package
+`com.notesapp`
+
+## 📁 Project Structure
+NotesApp/
+ ├── src/
+ │    └── com/notesapp/NotesApp.java
+ ├── notes.txt
+ └── README.md
+
+## 🚀 Features
+- Write notes to a file (append mode)
 - Read all saved notes
-- Handles exceptions properly
-- Demonstrates append mode file writing
+- Uses try-with-resources
+- Handles File I/O exceptions
+- Beginner-friendly console menu
 
-## Technologies Used
+## 🛠 Technologies Used
 - Java
-- FileReader, FileWriter, BufferedReader
+- FileWriter
+- FileReader
+- BufferedReader
+- Exception Handling
 
-## How to Run
-1. Download the project
-2. Open terminal in the folder
+## 📌 How to Run
+1. Open terminal inside project folder.
+2. Compile:
+javac src/com/notesapp/NotesApp.java
+
+
 3. Run:
-   javac NotesApp.java
-   java NotesApp
+java com.notesapp.NotesApp
 
-## Author
-Darthi priya
+
+
+## 📝 Output Example
+- Option to write notes  
+- Option to read saved notes  
+- Notes stored in `notes.txt` file
+
+## 👤 Author
+Darthhi priya
